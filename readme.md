@@ -26,13 +26,13 @@ You can refer to the official UVC documentation below, but please note that not 
 #### 1. **Windows**:
    - **Software**:
      - **Windows Camera**: The built-in camera application in Windows 10/11.
+     - **AMCap**: AMCAP is a commonly used and convenient testing tool, and we recommend using it for testing. There are currently several derivative versions, and I have put the three versions we commonly use on GitHub. Please note that different versions may have some unknown minor bugs when used with different ISP chip vendors.
      - **OBS Studio**: Open-source software for video recording and live streaming, which supports UVC cameras.
        - [OBS Studio Download](https://obsproject.com/download)
        - [OBS User Manual](https://obsproject.com/wiki)
      - **VLC Media Player**: Supports UVC cameras for capturing video.
        - [VLC Download](https://www.videolan.org/vlc/index.html)
        - [VLC User Manual](https://www.videolan.org/doc/)
-
    - **Installation & Usage**:
      - Simply plug in the UVC camera, and it should be recognized by these applications. No additional drivers are typically required.
      - **Important**: When using software like VLC, OBS, or Windows Camera, be sure to select the correct UVC camera device from the available video devices in the application's settings.
